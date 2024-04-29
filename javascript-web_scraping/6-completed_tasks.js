@@ -2,7 +2,7 @@
 
 const request = require('request');
 
-const url = 'https://jsonplaceholder.typicode.com/todos';
+const url = process.argv[2];
 
 function getCompletedTasks () {
   request(url, { json: true }, (error, response, body) => {
