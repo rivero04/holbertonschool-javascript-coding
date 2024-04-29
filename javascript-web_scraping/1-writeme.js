@@ -9,10 +9,7 @@ function Writefile(path, content) {
     fs.writeFile(path, content, 'utf-8', (err) => {
        if (err) {
          console.error(err);
-       } else {
-         console.log('The string has been written to the file successfully.')
-       }
-    });
+       }});
    }
    
 Writefile(filePath, data);
