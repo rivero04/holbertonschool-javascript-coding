@@ -22,5 +22,4 @@ function getCompletedTasks() {
         console.log(completedTasks);
     });
 }
-
 getCompletedTasks();
