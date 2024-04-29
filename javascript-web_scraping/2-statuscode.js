@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-const { func } = require('assert-plus');
 const request = require('request');
 
 const url = process.argv[2]
