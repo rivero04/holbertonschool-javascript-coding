@@ -1,5 +1,5 @@
 const http = require('http');
-const countStudents = require('./3-read_file_async');
+const countStudents = require('./3-read_file_async.js');
 
 const databasePath = process.argv[2];
 
@@ -18,6 +18,6 @@ const app = http.createServer((req, res) => {
   }
 });
 
-app.listen(1245, '127.0.0.1')
+app.listen(1245, '127.0.0.1');
 
 module.exports = app;
