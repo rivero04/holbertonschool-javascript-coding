@@ -15,10 +15,7 @@ const app = http.createServer((req, res) => {
       .catch((error) => {
         res.end(`This is the list of our students\n${error.message}`);
       });
-  } else {
-    res.statusCode = 404;
-    res.end("Not found");
-  }
+  } 
 });
 
 app.listen(1245);
